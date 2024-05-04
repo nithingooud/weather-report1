@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.container {
+  display: flex;
+
+  flex-direction: column;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container2 {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url('https://cdn.pixabay.com/photo/2022/12/07/16/07/palm-7641522_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes spinner-grow {
+  0% {
+    transform: scale(0);
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
   }
 }

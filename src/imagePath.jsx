@@ -1,0 +1,23 @@
+export { default as humid } from './assets/svg/humid.svg';
+export { default as humidity } from './assets/svg/humidity.svg';
+export { default as speed } from './assets/svg/speed.svg';
+export { default as clearSky } from './assets/images/clear-sky.png';
+export { default as heavyRain } from './assets/images/heavy-rain.png';
+export { default as clouds } from './assets/images/clouds.png';
+export { default as fewclouds } from './assets/images/few-clouds.png';
+export { default as mist } from './assets/images/mist.png';
+export { default as scatteredClouds } from './assets/images/scattered-clouds.png';
+export { default as showerRain } from './assets/images/shower-rain.png';
+export { default as snowFlake } from './assets/images/snowflake.png';
+export { default as thunderStorm } from './assets/images/thunderstorm.png';
+export { default as loadingAnimation } from './assets/lottie/loading.json';
+export { default as wrongInputAnimation } from './assets/lottie/wrong-input.json';
+
+export { default as rainAnimation } from './assets/lottie/rain-animation.json';
+export { default as clearSkyAnimation } from './assets/lottie/clear-sky.json';
+export { default as fewCloudsAnimation } from './assets/lottie/few-clouds.json';
+export { default as brokenCloudsAnimation } from './assets/lottie/broken-clouds.json';
+export { default as cloudsAnimation } from './assets/lottie/clouds.json';
+export { default as mistAnimation } from './assets/lottie/mist.json';
+export { default as snowAnimation } from './assets/lottie/snow.json';
+export { default as thunderStormAnimation } from './assets/lottie/thunderstorm.json';
